@@ -14,3 +14,14 @@ options:
   -c, --constrained     Show constrained routes.
   -r, --roles           Show roles.
   -R ROLE, --role ROLE  Show constrained rotes, accessible by role.
+
+EXAMPLE:
+python3 main.py -r web.xml         
+*
+ADMIN
+DEMO
+DENY
+ENTERPRISEADMIN
+MANAGER
+OPERATOR
+USERS
