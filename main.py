@@ -38,6 +38,7 @@ def check_in_list_url(url, constrained_urls):
     return False
 
 
+
 def get_open_urls(main_node):
     res = {}
     urls = get_urls(main_node)
